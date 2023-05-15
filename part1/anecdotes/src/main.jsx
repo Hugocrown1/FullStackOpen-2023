@@ -15,5 +15,6 @@ const anecdotes = [
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App anecdotes={anecdotes}/>
+    
   </React.StrictMode>,
 )
